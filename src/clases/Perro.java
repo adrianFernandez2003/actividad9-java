@@ -15,14 +15,12 @@ public class Perro {
         return "guau guau";
     }
     public void informacion(){
-        System.out.println("-------------");
         System.out.println("nombre: " + nombre + "\n");
         System.out.println("raza: " + raza);
         System.out.println("color: " + color);
         System.out.println("edad: " + edad);
         System.out.println("altura: " + altura + "cm");
         System.out.println("peso: " + peso + "kg");
-        System.out.println("------------- \n");
     }
     //getter
     public int getEdad() {
